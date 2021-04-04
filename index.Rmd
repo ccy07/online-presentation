@@ -48,10 +48,8 @@ to examine whether good examples are always better than bad examples| 2 scatter 
 show the outliners | facets | for next experiment | (5)
 ---
 # Experiment 1- (1)
-```{r,echo=FALSE}
-library(knitr)
-knitr::include_graphics("1.png")
-```
+![image](1.png)
+
 ---
 # Experiment 1- (2)
 ```{r,echo=FALSE}
