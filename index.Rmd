@@ -50,7 +50,7 @@ show the outliners | facets | for next experiment | (5)
 # Experiment 1- (1)
 ```{r,echo=FALSE}
 library(knitr)
-knitr::include_graphics("/Users/Chaoyi/Desktop/online presentation/1.png")
+knitr::include_graphics("1.png")
 ```
 ---
 # Experiment 1- (2)
