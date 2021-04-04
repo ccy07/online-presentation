@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Assessing introspective linguistic judgments quantitatively</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Chaoyi Chen" />
+    <meta name="date" content="2021-04-04" />
+    <script src="libs/header-attrs-2.7.3/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/hygge.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/rutgers.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/rutgers-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Assessing introspective linguistic judgments quantitatively
+## the case of <em>The Syntax of Chinese</em>
+### Chaoyi Chen
+### Rutgers University
+### 2021-04-04
+
+---
+
+# The paper
+* The paper I am presenting is [Chen, Z., Xu, Y., &amp; Xie, Z. (2020). Assessing introspective linguistic judgments quantitatively: The case of The Syntax of Chinese. *Journal of East Asian Linguistics*, 29(3), 311-336.] You can find this paper [here](https://link.springer.com/article/10.1007/s10831-020-09210-y).
+---
+# The research question
+
+* **Background and motivation**: 
+
+  + The informal judgments of the well-formedness of phrases and sentences have long been used as the primary data source for syntacticians.
+  + People wonder if the introspective and informal acceptability judgments from syntacticians is truly consistent with those of native speakers of the target language.
+- **Research question**: 
+
+  + Can the introspective judgments in a recent and frequently used Chinese syntax textbook, *The Syntax of Chinese* (by C.-T. James Huang, Y.-H. Audrey Li, and Yafei Li, 2009, Cambridge University Press, henceforth, HLL), be replicated?
+  
+- Two experiments were conducted in this study.
+---
+# Experiment 1- overview
+- Experiment 1 is an acceptability rating experiment assessing Chinese native speakers’ judgments of the sentence examples in the book.
+
+- **Materials:** 557 sentences into three categories: the "good" sentences, the “bad” ones and the "questionable" ones. They occur in PAIR contrasts (good/bad), TRIPLE contrasts (good/questionable/bad) or are independent.
+
+- **Procedure:** Sentence items were presented one at a time which participants rated on a scale from 1 (very bad) to 7 (very good).
+
+- **Randomizing the tested sentences:**  two/three sentences in PAIR or TRIPLE contrasts will go to different groups and judged by different participants. 
+---
+# Experiment 1- statistics summary
+What they did | How | Why | Figure
+--------------|-----|-----|-------
+to test if there is significant differences among good, bad and questionable sentences| two-tailed paired t-tests | the predictors are categorical | (1)
+to evaluate the effects of gender, age and education of participants|a linear mixed-effects model|the predictors are categorical and continuous |
+to examine whether the judgments are stable and therefore reliable over time| scatter plot| to show the distribution | (2)
+to examine whether good examples are always better than bad examples| 2 scatter plots | to show the distribution| (3)(4)
+show the outliners | facets | for next experiment | (5)
+---
+# Experiment 1- (1)
+&lt;img src="/Users/Chaoyi/Desktop/online presentation/1.png" width="708" /&gt;
+---
+# Experiment 1- (2)
+&lt;img src="/Users/Chaoyi/Desktop/online presentation/2.png" width="641" /&gt;
+---
+# Experiment 1- (3)
+&lt;img src="/Users/Chaoyi/Desktop/online presentation/3.png" width="627" /&gt;
+---
+# Experiment 1- (4)
+&lt;img src="/Users/Chaoyi/Desktop/online presentation/4.png" width="612" /&gt;
+---
+# Experiment 1- (5)
+&lt;img src="/Users/Chaoyi/Desktop/online presentation/5.png" width="713" /&gt;
+---
+# Appropriateness/novelty of analysis
+  + The two-tailed paired t-test is an appropriate analysis for the cases where we want to see if there is any significant differences among categorical predictors; 
+  
+  + The linear mixed-effects model is an appropriate (and convinient) way to test the main effects of both categorical and continuous variables.
+  
+  + The statistical methods used in this study were all covered in our course. 
+  
+  + One possible problem for this analysis is that a Likert scale item is in fact a set of ordered categories but the authors treated them as if it were continuous in the study. Some scholar argue that for ordered categories, the intervals between the scale values are not equal. Any mean, correlation, or other numerical operation applied to them is invalid. 
+---
+# Presentation of results
+
+  + They properly explain and interpret their results. They gave the detailed results of their studies, including F and t-values. Further,they used the p&lt; 0.001 and 0.0001 to support their hypothesis that there are significant differences among good, bad and questionable sentences. This is a correct interpretation of the results.
+  
+  + They use tables/graphs to present the results they got. The graphs are clear and easy to read.
+
+---
+# Overall evaluation in Experiment 1
+
++ They used appropriate statistic methods and models to examine their hypotheses and present each result they got with graphs and tables  
++ However, their treating an ordered variable as if it were continuous may lead to some problems.
+
++ What is noteworthy in this study is that they singled out the outliners and conducted a follow-up experiment on them (experiment 2).
+
+---
+# Experiment 2- overview
+- **Background:** Syntactic researchers focus on the difference between candidates that are of theoretical interest within a particular contrast.
+
+- Experiment 2 is a forced-choice task re-testing all 17
+PAIR contrasts identified in Experiment 1 with non-significant difference between the two members to see if we can get the significant difference in this contrast setting.
+
+- **Materials:** Apart from the test group (17 PAIR contrasts in question), they also created two Control Groups 
+  + Control 1 group: 27 Pair contrasts whose rating differences were the most significant in Experiment 1; 
+  + Control 2 group: 9 Pair contrasts whose rating difference reached significance in the z-transformed data but failed do the same when the raw data were analyzed
+  
+- **Procedure:** Participants simply read and chose the better sentence from each pair.
+---
+# Experiment 2- statistics summary
+What they do | How | Why | Figure
+-------------|-----|-----|
+to test if the proportion of choosing a “good” sentence as the better one was significantly higher| fitting binominal mixed effects model/logistic regression | dependent variables are categorical| (1)
+to verify if the difference is significant for each pair | facets |to look into individual differences|(2)
+---
+# Experiment 2- (1)
+&lt;img src="/Users/Chaoyi/Desktop/online presentation/6.png" width="725" /&gt;
+---
+# Experiment 2- (2)
+&lt;img src="/Users/Chaoyi/Desktop/online presentation/7.png" width="708" /&gt;
+---
+# Appropriateness/novelty of analysis
+
+  + This experiment used a method we haven't covered in this course yet (as of April 5)---logistic regression. 
+  
+  + Logistic regression is appropriate for the case where we need to model a binary dependent variable. In this case, the good/better choice is a dependent variable.
+  
+  + Apart from showing the general patterns of the data, they also split the plot into facets and made a clear case-by-case comparison to single out the cases where more participants chose the "bad " sentences as good sentences for further studies. 
+---
+# Presentation of results
+  + They properly explained and interpreted their results. They gave the detailed results of their studies (p-value). Further,they used the p&lt; 0.001 and 0.05 to support their hypothesis that the judgment of “good” sentence as the better one was significantly higher in all these three groups. This interpretation is correct.
+  
+  + They used tables/graphs to present every result they got. The graphs are clear and easy to read.
+---
+# Overall evaluation in Experiment 2
+
++ They used appropriate statistic methods and models to examine their hypotheses and present every result they got with graphs and tables.
+
++ In this experiment, they also paid attention to the outliners. Even under the contrast condition, we still got five pairs showing that bad sentences are judged to be good. This will lead us to investigate more on these individual cases.
+
++ Nonetheless, I don't think that two control groups are not well motivated and play any role in this study.
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
